@@ -7,7 +7,7 @@ This is a small project aimed at demonstrating how to start coding with TypeScri
 ## Table of Contents
 1. [GitHub Account](#github-account)
 2. [Install All Dependencies](#install-all-dependencies)
-3. [VS Code Extensions](#vs-code-extensions)
+3. [VS Code and Extensions](#vs-code-and-extensions)
 4. [Prepare Your Local Repo](#prepare-your-local-repo)
 5. [Install TypeScript on Your Repo](#install-typescript-on-your-repo)
 6. [Update tsconfig.json File](#update-tsconfigjson-file)
@@ -21,14 +21,17 @@ This is a small project aimed at demonstrating how to start coding with TypeScri
 
 ### GitHub Account
 
-This is mandatory. (Hey, I am here, right?)
+This is mandatory 😁 (Hey, I am here, right?)
 
 ### Install All Dependencies
 - [Node.js](https://nodejs.org/en/download/current)
 - [TypeScript](https://www.typescriptlang.org/download)
 - [Git](https://git-scm.com/downloads)
 
-### VS Code Extensions (Optional but highly recommended)
+### VS Code and extensions
+ VS Code is mandatory but extensions are optional but highly recommended
+
+- [VS Code](https://code.visualstudio.com/)
 - [Material Icon](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [TypeScript](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
