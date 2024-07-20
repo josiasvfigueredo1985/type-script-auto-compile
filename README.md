@@ -2,7 +2,7 @@
 
 ***To read this with better formatting, right-click on the file in Explorer, choose "Open With", then select "Markdown Preview".***
 
-This is a small project aimed at demonstrating how to start coding with TypeScript without worrying about compiling it each time you need to run your code. TypeScript is awesome, but the fact that we need to compile it to JavaScript can be annoying, especially for beginners. So, here are my tips after some research to make your start easy and satisfactory!
+This is a small project aimed at demonstrating how to start coding with TypeScript without worrying about compiling it each time you need to run your code. TypeScript is awesome, but the fact that we need to compile it to JavaScript can be annoying, especially for beginners. So, here are a few tips to help you start coding!
 
 ## Table of Contents
 1. [GitHub Account](#github-account)
