@@ -5,25 +5,19 @@
 This is a small project aimed at demonstrating how to start coding with TypeScript without worrying about compiling it each time you need to run your code. TypeScript is awesome, but the fact that we need to compile it to JavaScript can be annoying, especially for beginners. So, here are a few tips to help you start coding!
 
 ## Table of Contents
-1. [GitHub Account](#github-account)
-2. [Install All Dependencies](#install-all-dependencies)
-3. [VS Code and Extensions](#vs-code-and-extensions)
-4. [Prepare Your Local Repo](#prepare-your-local-repo)
-5. [Install TypeScript on Your Repo](#install-typescript-on-your-repo)
-6. [Update tsconfig.json File](#update-tsconfigjson-file)
-7. [NPM Configuration](#npm-configuration)
-8. [Create Your First TypeScript Code](#create-your-first-typescript-code)
-9. [Configure Auto Compile and Run Current File Code](#configure-auto-compile-and-run-current-file-code)
-10. [Run Your Code](#run-your-code)
-11. [Update Your Code and Run It Again](#update-your-code-and-run-it-again)
-12. [Optionals](#optionals)
+1. [Required](#required)
+2. [VS Code and Extensions](#vs-code-and-extensions)
+3. [Prepare Your Local Repo](#prepare-your-local-repo)
+4. [Install TypeScript on Your Repo](#install-typescript-on-your-repo)
+5. [Update tsconfig.json File](#update-tsconfigjson-file)
+6. [NPM Configuration](#npm-configuration)
+7. [Create Your First TypeScript Code](#create-your-first-typescript-code)
+8. [Configure Auto Compile and Run Current File Code](#configure-auto-compile-and-run-current-file-code)
+9. [Run Your Code](#run-your-code)
+10. [Update Your Code and Run It Again](#update-your-code-and-run-it-again)
+11. [Optionals](#optionals)
 
-
-### GitHub Account
-
-This is mandatory 😁 (Hey, I am here, right?)
-
-### Install All Dependencies
+### Required
 - [Node.js](https://nodejs.org/en/download/current)
 - [TypeScript](https://www.typescriptlang.org/download)
 - [Git](https://git-scm.com/downloads)
