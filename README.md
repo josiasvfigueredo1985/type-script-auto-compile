@@ -36,6 +36,7 @@ This is a small project aimed at demonstrating how to start coding with TypeScri
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 ### Prepare Your Local Repo
+- Connect your Github account on VS Code
 - Create a new folder
 - Open New Terminal on VS Code
 - Command: `git init`
