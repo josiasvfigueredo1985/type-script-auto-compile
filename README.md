@@ -66,14 +66,16 @@ This is a small project aimed at demonstrating how to start coding with TypeScri
 - Add an `output` folder
 - Add `<nameYouWant>.ts` file into `src` folder
 - Add the following code into it:
-    ```typescript
-    class MyFirstCode {
+`
+abstract class MyFirstCode {
         name: string;
         age: number;
         constructor(name: string, age: number) {
             this.name = name;
             this.age = age;
         }
+    abstract greet(): void;
+        
     }
     
     class Greetings extends MyFirstCode {
@@ -84,7 +86,7 @@ This is a small project aimed at demonstrating how to start coding with TypeScri
     
     const person = new Greetings("John", 25);
     person.greet();
-    ```
+  `
 
 ### Configure Auto Compile and Run Current File Code
 - Open `RUN AND DEBUG` menu on VS Code
