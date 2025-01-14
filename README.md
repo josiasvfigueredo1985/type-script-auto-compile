@@ -90,15 +90,29 @@ This is a small project aimed at demonstrating how to start coding with TypeScri
 - Open `RUN AND DEBUG` menu on VS Code
 - Select `create a launch.json file`
 - Select `Node.js` option
-- Select `Chrome: launch`
-- Add the following lines inside configurations section:
-    ```json
-    "preLaunchTask": "npm: build",
-    "console": "integratedTerminal",
-    ```
-- Update line 21 to `"program": "${file}",`
+- Select `Node.js: Launch Program`
+- Replace configurations section with lines below:
+  `
+  "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "preLaunchTask": "npm: build",
+            "console": "integratedTerminal",
+            "program": "${file}",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        }
+    ]
+  `
 
 ### Run Your Code
+- Open .ts file created previously
 - Press `F5` and see the magic happens!🧙‍♂️
     - JavaScript files should be created into `output` folder
     - Terminal should open with compiling status
@@ -108,11 +122,12 @@ This is a small project aimed at demonstrating how to start coding with TypeScri
 - It should update and run automatically according to your changes 🤖
 
 ### Optionals
+- Update `name` property on "launch.json" as you prefer
 - Add `output` folder to .gitignore
 - Commit your changes to your repository
 - Check out your GitHub repository
-- Always commit your changes and follow it with GitLens
-- Add ESLint integration to your project (Google it)
-- Add Husky integration and pre-commit configurations (Google it)
+- Always commit your changes
+- Add ESLint integration and configurations to your project (Google/chatGPT it)
+- Add Husky integration and pre-commit configurations (Google/chatGPT it)
 
 **❤️💻HAPPY CODING!!!💻❤️**
