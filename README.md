@@ -39,7 +39,7 @@ This is a small project aimed at demonstrating how to start coding with TypeScri
 - Connect your Github account on VS Code
 - Create a new folder
 - Open New Terminal on VS Code
-- Insert command: `git init`
+- Insert command: ```git init```
 - On Explorer, create `.gitignore` file
 - On Explorer, create `README.md` file
 - Open Source Control on VS Code and commit your changes
@@ -47,18 +47,18 @@ This is a small project aimed at demonstrating how to start coding with TypeScri
 - Create a branch from master (Optional)
 
 ### Install TypeScript on Your Repo
-- On Terminal insert command 1: Windows: `npm install -g typescript` - Mac/Linux: `sudo npm install -g typescript`  
-- Then command 2: `tsc --init` (tsconfig.json will be added automatically to your project folder, no need to modify for now)
+- On Terminal insert command 1: Windows: ```npm install -g typescript``` - Mac/Linux: ```sudo npm install -g typescript```
+- Then command 2: ```tsc --init``` (tsconfig.json will be added automatically to your project folder, no need to modify for now)
 
 ### Install ESLint to your project
-- On Terminal insert command 1: Windows: `npm install -g eslint` - Mac/Linux:  `sudo npm install -g eslint`
+- On Terminal insert command 1: Windows: ```npm install -g eslint``` - Mac/Linux:  ```sudo npm install -g eslint```
 
 ### Update tsconfig.json File
 - Uncomment and update line 61 to `"outDir": "./output",`
 - Uncomment `sourceMap` on line 57 
 
 ### NPM Configuration
-- On terminal insert command: `npm init`
+- On terminal insert command: ```npm init```
 - On Explorer, open `package.json` file that was created on the step before and inside "scripts" section, add a comma at the end of line 6 and then the following line bellow: `"build": "tsc"`
 
 ### Create Your First TypeScript Code
@@ -66,7 +66,7 @@ This is a small project aimed at demonstrating how to start coding with TypeScri
 - Add an `output` folder
 - Add `<nameYouWant>.ts` file into `src` folder
 - Add the following code into it:
-`
+```
 abstract class MyFirstCode {
         name: string;
         age: number;
@@ -86,7 +86,7 @@ abstract class MyFirstCode {
     
     const person = new Greetings("John", 25);
     person.greet();
-  `
+  ```
 
 ### Configure Auto Compile and Run Current File Code
 - Open `RUN AND DEBUG` menu on VS Code
@@ -94,7 +94,7 @@ abstract class MyFirstCode {
 - Select `Node.js` option
 - Select `Node.js: Launch Program`
 - Replace configurations section with lines below:
-  `
+  ```
   "configurations": [
         {
             "type": "node",
@@ -111,11 +111,11 @@ abstract class MyFirstCode {
             ]
         }
     ]
-  `
+  ```
 
 ### Run Your Code
 - Open .ts file created previously
-- Press `F5` and see the magic happens!🧙‍♂️
+- Press `F5` key and see the magic happens!🧙‍♂️
     - JavaScript files should be created into `output` folder
     - Terminal should open with compiling status
     - After compiling, TypeScript code should run successfully
