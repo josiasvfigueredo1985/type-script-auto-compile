@@ -39,30 +39,33 @@ This is a small project aimed at demonstrating how to start coding with TypeScri
 - Connect your Github account on VS Code
 - Create a new folder
 - Open New Terminal on VS Code
-- Command: `git init`
-- Create `.gitignore` file
-- Create `README.md` file
+- Insert command: `git init`
+- On Explorer, create `.gitignore` file
+- On Explorer, create `README.md` file
 - Open Source Control on VS Code and commit your changes
 - Publish your branch
 - Create a branch from master (Optional)
 
 ### Install TypeScript on Your Repo
-- Command 1: `npm install -g typescript`
-- Command 2: `tsc --init` (tsconfig.json will be added automatically to your project folder, no need to modify for now)
+- On Terminal insert command 1: Windows: `npm install -g typescript` - Mac/Linux: `sudo npm install -g typescript`  
+- Then command 2: `tsc --init` (tsconfig.json will be added automatically to your project folder, no need to modify for now)
+
+### Install ESLint to your project
+- On Terminal insert command 1: Windows: `npm install -g eslint` - Mac/Linux:  `sudo npm install -g eslint`
 
 ### Update tsconfig.json File
-- Change line to `"outDir": "./output",`
-- Uncomment `sourceMap` line
+- Uncomment and update line 61 to `"outDir": "./output",`
+- Uncomment `sourceMap` on line 57 
 
 ### NPM Configuration
-- Command: `npm init`
-- Open `package.json` file that was created on the step before and add the following line inside "scripts": `"build": "tsc"`
+- On terminal insert command: `npm init`
+- On Explorer, open `package.json` file that was created on the step before and inside "scripts" section, add a comma at the end of line 6 and then the following line bellow: `"build": "tsc"`
 
 ### Create Your First TypeScript Code
-- Add a `src` folder
+- On Explorer, add a `src` folder
 - Add an `output` folder
 - Add `<nameYouWant>.ts` file into `src` folder
-- Add the following code to it:
+- Add the following code into it:
     ```typescript
     class MyFirstCode {
         name: string;
@@ -87,12 +90,13 @@ This is a small project aimed at demonstrating how to start coding with TypeScri
 - Open `RUN AND DEBUG` menu on VS Code
 - Select `create a launch.json file`
 - Select `Node.js` option
-- Add the following lines inside configurations:
+- Select `Chrome: launch`
+- Add the following lines inside configurations section:
     ```json
     "preLaunchTask": "npm: build",
     "console": "integratedTerminal",
     ```
-- Modify line to `"program": "${file}",`
+- Update line 21 to `"program": "${file}",`
 
 ### Run Your Code
 - Press `F5` and see the magic happens!🧙‍♂️
